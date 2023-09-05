@@ -1,6 +1,7 @@
 // * highlighter background color override * //
 
 @if $highlighter_background_color_override !="" {
+
   .cooked,
   .d-editor-preview {
     mark {
@@ -10,7 +11,9 @@
     }
   }
 }
+
 @else {
+
   .cooked,
   .d-editor-preview {
     mark {
@@ -24,6 +27,7 @@
 // * highlighter text color override * //
 
 @if $highlighter_text_color_override !="" {
+
   .cooked,
   .d-editor-preview {
     mark {
@@ -31,7 +35,9 @@
     }
   }
 }
+
 @else {
+
   .cooked,
   .d-editor-preview {
     mark {
