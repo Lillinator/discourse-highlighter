@@ -1,5 +1,6 @@
-@if $highlighter_background_color_override !="" {
+// * highlighter background color override * //
 
+@if $highlighter_background_color_override !="" {
   .cooked,
   .d-editor-preview {
     mark {
@@ -9,9 +10,7 @@
     }
   }
 }
-
-@if $highlighter_background_color_override =="" {
-
+@else {
   .cooked,
   .d-editor-preview {
     mark {
@@ -22,8 +21,9 @@
   }
 }
 
-@if $highlighter_text_color_override !="" {
+// * highlighter text color override * //
 
+@if $highlighter_text_color_override !="" {
   .cooked,
   .d-editor-preview {
     mark {
@@ -31,9 +31,7 @@
     }
   }
 }
-
-@if $highlighter_text_color_override =="" {
-
+@else {
   .cooked,
   .d-editor-preview {
     mark {
